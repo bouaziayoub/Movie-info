@@ -1,0 +1,72 @@
+/* MovieDetails.css */
+.movie-details-container {
+  display: flex;
+  height: 80vh;
+}
+
+.poster {
+  /* width: 100%; */
+  /* height: 100%; */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.movie-info {
+  flex: 1;
+  padding: 30px;
+  box-sizing: border-box;
+  line-height: 2rem;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.overview {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.release-date,
+.vote-average {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.loading {
+  text-align: center;
+  margin: 20px;
+  font-size: 18px;
+  color: #555;
+}
+
+.info-subtitle span {
+  margin-left: 20px;
+}
+
+.more-details {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+  gap: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .movie-details-container {
+    flex-direction: column;
+    height: auto;
+  }
+  .movie-info {
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .overview {
+    font-size: 14px;
+  }
+}
