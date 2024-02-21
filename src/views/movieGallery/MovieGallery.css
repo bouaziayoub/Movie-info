@@ -1,6 +1,6 @@
 .container-movie-gallery {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 40px;
 }
 
@@ -25,17 +25,15 @@
 }
 
 .pagination {
-  position: fixed;
-  bottom: 0;
-  left: 0;
   /* background: #100a1f; */
-  background: #423b54;
 
+  /* background: #423b54; */
+  margin-top: 3rem;
   width: 100%;
   display: flex;
   justify-content: center;
-  gap: 20px;
-  padding: 10px;
+  gap: 50px;
+  padding: 50px;
   font-weight: 600;
 }
 
@@ -48,7 +46,7 @@
   justify-content: center;
   text-align: center;
   height: 50px;
-  width: 250px;
+  width: 200px;
   background: #241744;
   color: #fff;
   border-radius: 100px;
@@ -56,7 +54,7 @@
   transition: 0.3s ease all;
   text-decoration: none;
 }
-.no-link a{
+.no-link a {
   font-size: 12px;
   background: #978fb1;
 }
@@ -66,7 +64,8 @@
   color: #fff;
 }
 
-.pagination button:hover, .trailer .trailer-link:hover {
+.pagination button:hover,
+.trailer .trailer-link:hover {
   background: #6b5b9c;
 }
 

@@ -1,18 +1,19 @@
 /* MovieSearch.css */
 .search-form {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
   padding: 10px;
-  background-color: #241744;
+  /* background-color: #241744; */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 1000;
+  margin-bottom: 5rem;
 }
 
 form {
   margin: auto;
-  width: 20%;
+  width: 60%;
   display: flex;
   align-items: center;
 }
@@ -20,8 +21,8 @@ form {
 input {
   padding: 10px;
   font-size: 16px;
-  border: 5px solid #ccc;
-  border-radius: 25px;
+  border: 15px solid #343434;
+  border-radius: 40px;
   flex-grow: 1;
   color: #ccc;
 }

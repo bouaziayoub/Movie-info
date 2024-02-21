@@ -103,14 +103,14 @@ const MovieGallery = () => {
             </div>
           </div>
         ))}
-        <div className="pagination">
+       
+      </div> <div className="pagination">
           <button onClick={handlePrev} disabled={currentPage === 1}>
             Anterior
           </button>
           <span>Página {currentPage}</span>
           <button onClick={handleNext}>Siguiente</button>
         </div>
-      </div>
     </>
   );
 };
